@@ -1,0 +1,10 @@
+language: node_js
+node_js:
+- '7'
+deploy:
+  provider: heroku
+  api_key:
+    secure: IyqJE+zLHBlLhkxjCaYjW7PnpIx0+SsSM+lgiXRYC0x2v0z4d6uUIooI8c2J6UXDS9KSAGEX4kdNfgBHf76Z/wuQCJzaq4HelOo1B0S2YBSc4d2risjBAt5ywx+xwXYtxVovR5hGlGrwXTGQbtEI9iLhlhSOAc/Cj0wCuufeha/CB1mG42k4NW5TRslHZQHpNyE08Pl4XaraWfhOF87vAC+V+O89rJV7660zp7f0isnPi+1ZH/kMgInM8XWmErOPAx10O65hAH+tqV7ewbn+x10JiCy6vMXcuspv49VdKLgrP6Obb8TOXhSkgJezbVBbrwXBZcyR5oSw4LpJYUlaMXOEjz336ZiGmSAl5VgLyAaevA7mCiZ8S1UhaqO8H7glNboKXTZcxe/FDqiu48K/bh9MujuIIh6zOMgv9kPZILfAjmjQpQI1tAe66QrU4gjCE0fGpjeiO3WeKRBE9+T4ngIgFvKTUnNhBw9FEF5dPXvyZ3W3W66dAtpvd8Bp94VMccV6Sw4v+i7lLKCmhd+eVpSPTx4Cw09QpMlVB9W2WE33zKmPsYPiQTWXekiRrsMI+2iVUTzp8zh/wzXLqQJOOkq6q7RqP4TlNy/3d4d4SqqLIq6YvpXQJLlqOADokniB7Nm9WnCd7BFnrji3DaJAzzKr35EICF9Epj70nXcQp1M=
+  app: fathomless-basin-25627
+  on:
+    repo: Tsquare8/marvel-react
